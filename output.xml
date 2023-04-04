@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.10 on win32)" generated="20230404 18:48:08.363" rpa="false" schemaversion="3">
+<suite id="s1" name="Advantage Tests" source="C:\Automa\Projetos Robot Framework\advantage\advantage_tests.robot">
+<test id="s1-t1" name="Caso de Teste 01 - Validar especificações do produto" line="9">
+<kw name="Connect To Database" library="DatabaseLibrary" type="SETUP">
+<arg>banco_teste_automacao</arg>
+<arg>alias=default</arg>
+<doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
+connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
+<msg timestamp="20230404 18:48:08.575" level="FAIL">DuplicateOptionError: While reading from './resources/db.cfg' [line  7]: option 'dbhost' in section 'default' already exists</msg>
+<status status="FAIL" starttime="20230404 18:48:08.574" endtime="20230404 18:48:08.575"/>
+</kw>
+<status status="FAIL" starttime="20230404 18:48:08.574" endtime="20230404 18:48:08.576">Setup failed:
+DuplicateOptionError: While reading from './resources/db.cfg' [line  7]: option 'dbhost' in section 'default' already exists</status>
+</test>
+<test id="s1-t2" name="Caso de Teste 02 - Validar alteração de cor do produto no carrinho" line="16">
+<kw name="Connect To Database" library="DatabaseLibrary" type="SETUP">
+<arg>banco_teste_automacao</arg>
+<arg>alias=default</arg>
+<doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
+connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
+<msg timestamp="20230404 18:48:08.578" level="FAIL">DuplicateOptionError: While reading from './resources/db.cfg' [line  7]: option 'dbhost' in section 'default' already exists</msg>
+<status status="FAIL" starttime="20230404 18:48:08.577" endtime="20230404 18:48:08.578"/>
+</kw>
+<status status="FAIL" starttime="20230404 18:48:08.577" endtime="20230404 18:48:08.578">Setup failed:
+DuplicateOptionError: While reading from './resources/db.cfg' [line  7]: option 'dbhost' in section 'default' already exists</status>
+</test>
+<test id="s1-t3" name="Caso de Teste 03 - Validar página de checkout" line="25">
+<kw name="Connect To Database" library="DatabaseLibrary" type="SETUP">
+<arg>banco_teste_automacao</arg>
+<arg>alias=default</arg>
+<doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
+connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
+<msg timestamp="20230404 18:48:08.580" level="FAIL">DuplicateOptionError: While reading from './resources/db.cfg' [line  7]: option 'dbhost' in section 'default' already exists</msg>
+<status status="FAIL" starttime="20230404 18:48:08.580" endtime="20230404 18:48:08.580"/>
+</kw>
+<status status="FAIL" starttime="20230404 18:48:08.579" endtime="20230404 18:48:08.580">Setup failed:
+DuplicateOptionError: While reading from './resources/db.cfg' [line  7]: option 'dbhost' in section 'default' already exists</status>
+</test>
+<test id="s1-t4" name="Caso de Teste 04 - Remover produto do carrinho de compras" line="38">
+<kw name="Connect To Database" library="DatabaseLibrary" type="SETUP">
+<arg>banco_teste_automacao</arg>
+<arg>alias=default</arg>
+<doc>Loads the DB API 2.0 module given `dbapiModuleName` then uses it to
+connect to the database using `dbName`, `dbUsername`, and `dbPassword`.</doc>
+<msg timestamp="20230404 18:48:08.581" level="FAIL">DuplicateOptionError: While reading from './resources/db.cfg' [line  7]: option 'dbhost' in section 'default' already exists</msg>
+<status status="FAIL" starttime="20230404 18:48:08.581" endtime="20230404 18:48:08.582"/>
+</kw>
+<status status="FAIL" starttime="20230404 18:48:08.581" endtime="20230404 18:48:08.582">Setup failed:
+DuplicateOptionError: While reading from './resources/db.cfg' [line  7]: option 'dbhost' in section 'default' already exists</status>
+</test>
+<doc>Esta suite realiza 4 cenários de testes referentes ao site https://advantageonlineshopping.com</doc>
+<status status="FAIL" starttime="20230404 18:48:08.364" endtime="20230404 18:48:08.583"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="4" skip="0" id="s1" name="Advantage Tests">Advantage Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
